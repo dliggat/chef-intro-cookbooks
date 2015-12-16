@@ -1,0 +1,8 @@
+{
+  "run_list": [
+    "linuxbasics"
+  ],
+  "automatic": {
+    "ipaddress": "54.212.177.49"
+  }
+}
