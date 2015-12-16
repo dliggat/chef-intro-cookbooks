@@ -1,7 +1,18 @@
 {
   "run_list": [
-    "linuxbasics"
+    "linuxbasics",
+    "nodejs"
   ],
+  "nodejs": {
+    "npm_packages" : [
+      {
+        "name": "bower"
+      },
+      {
+        "name": "grunt"
+      }
+    ]
+  },
   "automatic": {
     "ipaddress": "54.212.177.49"
   }
