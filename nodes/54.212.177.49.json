@@ -1,6 +1,7 @@
 {
   "run_list": [
     "linuxbasics",
+    "linuxbasics::include_example",
     "nodejs"
   ],
   "nodejs": {
