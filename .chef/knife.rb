@@ -5,5 +5,7 @@ environment_path "environments"
 data_bag_path    "data_bags"
 #encrypted_data_bag_secret "data_bag_key"
 
-knife[:berkshelf_path] = "cookbooks"
+knife[:berkshelf_path]         = "cookbooks"
+knife[:aws_credential_file]    = "/Users/#{`whoami`.chomp}/.aws/credentials"
+knife[:aws_profile]            = "trinimbus"
 Chef::Config[:ssl_verify_mode] = :verify_peer if defined? ::Chef

@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 group :development, :test do
   gem 'knife-solo'
+  gem 'knife-cfn'
   gem 'berkshelf'
   gem 'faker'
   gem 'factory_girl'
